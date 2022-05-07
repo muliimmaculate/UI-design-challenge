@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    outline: none;
+    border: none;
+  
+  }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+section{
+  padding: 2rem 9%;
+}
+
+.home{
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      align-items: center;
+      background-image: linear-gradient(rgba(211,211,211,0.5),rgba(211,211,211,0.6)),url(images/pexels-ella-olsson-1640777.jpg);
+      background-size: cover;
+      background-position: center;
+    
+  }
+.column{
+  float: left;
+  width: 50%;
+  padding: 12px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.box{
+  max-width: 1000px; 
+  float: none;
+  margin: 10px auto;
+  padding: 50px;
+  background: rgba(211,211,211,0.6);
+  border-radius: 40px 40px 40px 40px;
+  min-height: 100vh;
+  align-items: center;
+
+}
+.home .box .container{
+  flex: 1 1 45rem;
+  padding-top: 2rem;
+}
+.home .box .column .image{
+  flex: 1 1 45rem;
+  float: right;
+
+}
+.home .box .column .image img{
+  width: 100%;
+  float: right;
+  border-radius: 50%;
+  
+}
+.home .box .column i{
+  margin: 5px;
+}
+.box .container .logo{
+  color: black;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  
+}
+.box .container span{
+  font-weight: 200;
+  font-size: 1rem;
+
+}
+.box .container h1{
+  color: black;
+  font-size: 4rem; 
+  font-weight: bolder;
+  padding-top: 6.5rem;
+  
+}
+.box .container .fa-shopping-cart{
+  position: absolute;
+  background: black;
+  border-radius: 10px 20px 40px 10px;
+  height: 6rem ;
+  width: 6rem;
+  line-height: 4rem;
+  font-size: 2rem ; 
+  color: white;
+  padding: .9rem 1rem;
+  float: right;
+  top: 100px;
+  right: 250px;
+}
+.box .container .icons .box1{
+  height: 5rem;
+  width: 5rem;
+  gap: 2rem;
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5rem;
+  border: .1rem solid rgba(211, 211, 211, .2 );
+  color: white ;
+  background: white;
+  font-size: 2.5rem;
+  padding: 1rem 1rem;
+  float: left;
+  margin: 6px;
+  
+}
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: white;
+  background: black;
+  border-radius: 30px 30px 10px  40px ;
+  align-items: center;
+  cursor: pointer;
+  width: 19rem;
+  height: 4rem;
+  padding: .8rem 3rem;
+  font-weight: 200;
+}
+.Box{
+  max-width: 250px;
+  float: left;
+  margin: 10px auto;
+  padding: 50px;
+  background: rgba(153, 153, 153, 0.301);
+  border-radius: 40px 40px 40px 40px;
+  min-height: 50vh;
+  align-items: center;
+
+}
+.column .Box{
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.column .Box h3{
+  float: left;
+  width: 50%;
+  padding: 15px;
+  margin: 12px;
+ 
+}  
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column .Box img{
+  width: 70%;
+  border-radius: 50%;
+  
+}
+.column .Box .fa-shopping-cart{
+  position: absolute;
+  background: black;
+  border-radius: 10px 20px 40px 10px;
+  height: 6rem ;
+  width: 6rem;
+  line-height: 4rem;
+  font-size: 2rem ; 
+  color: white;
+  padding: .3rem 1rem;
+ 
+
+}
+.column .Box h2{
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+}
+.column .Box .fa-heart{
+  border-radius: 50%;
+  background: rgba(100, 100, 100, 0.6);
+  color: black;
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  padding: 1.3rem 1rem;
+  float: right;
+
+}
+.column .Box p{
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 4px;
+}
+.column .Box span{
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+}
+.column .Box img{
+  margin-bottom: 30px;
+  margin-top: -20px;
+  padding: 2px;
+}
+.column  h3{
+  font-size: 3rem;
+  color: black;
+  font-weight: 800;
+}
+.column p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 4px;
+}
+.column h4{
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 40px;
+}
+.column1 img{
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: -20px;
+  margin-top: -40px;
+  
+}
+.column1 .price{
+  color: white;
+  background: rgba(128, 0, 0, 0.979);
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  font-size: 18px;
+  padding: 2.5rem 1rem;
+  float: right;
+  top: -100px;
+  right: 200px;
+  line-height: 2rem;
+  margin: 2px;
+  font-style: italic;
+  font-weight: 400;
+}
+.BOX{
+  max-width: 350px;
+  float: none;
+  margin: 8px auto;
+  padding: 30px;
+  background: rgba(199, 197, 197, 0.637);
+  border-radius: 40px 40px 40px 40px;
+  min-height: 60vh;
+  align-items: center;
+
+}
+.column .Box2{
+  float: left;
+  width: 40%;
+  
+}
+.column .Box2 img{
+  width: 250%;
+  border-radius: 50%;
+}
+.column .BOX .Box2 {
+    max-width: 200px;
+    float: left;
+    margin: 10px auto;
+    padding: 50px;
+    background: rgba(153, 153, 153, 0.301);
+    border-radius: 40px 40px 40px 40px;
+    min-height: 50vh;
+    align-items: center;
+  
+  }
+  .column .BOX .Box2 h2{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 10px;
+
+  }
+  
+.column .BOX .Box2 p{
+  color: black;
+  font-weight: 400;
+  font-size: 10px;
+  margin: 8px;
+  padding: 2px;
+}
+.column .BOX .Box2 span{
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.column .BOX .box2{
+    max-width: 250px;
+    float: left;
+    margin: 10px auto;
+    padding: 50px;
+    background: rgba(153, 153, 153, 0.301);
+    border-radius: 40px 40px 40px 40px;
+    min-height: 50vh;
+    align-items: center;
+  
+}
+.column .box2 {
+  width: 80%;
+  height: 20%;
+}
+.column .box2 span{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.column .box2 h1{
+  font-size: 16px;
+  margin: 10px;
+
+}
+.column .box2 p{
+  font-size: 9px;
+  margin: 8px;
+}
+.column .box2 .image{
+  flex: 1 1 45rem;
+  float: right;
+
+}
+.column .box2 img{
+  width: 90%;
+  border-radius: 50%;
+  float: right;
+  margin: -45px;
+}
+
+.column .BOX{
+  float: left;
+  width: 100%;
+  padding: 15px;
+ 
+}
+.column .BOX .icons .box1{
+  height: 4rem;
+  width: 4rem;
+  gap: 1rem;
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5rem;
+  border: .1rem solid rgba(179, 179, 179, 0.308);
+  color: white ;
+  background: white;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  float: left;
+  margin: 7px;
+  
+}
+.box2 .border{
+  background: black;
+  border-radius: 30px 30px 10px  40px ;
+  margin-top: 80px;
+  height: 30px;
+  width: 150px;
+
+}
+.box2 .border .icon{
+  color: white;
+  font-size: 14px;
+
+}
+.BOX h1{
+  font-size: 17px;
+
+}.BOX .fa-shopping-cart{
+  position: absolute;
+  background: black;
+  border-radius: 10px 20px 40px 10px;
+  height: 5rem ;
+  width: 5rem;
+  line-height: 3rem;
+  font-size: 2rem ; 
+  color: white;
+  padding: .9rem 1rem;
+  float: right;
+  bottom: -630px;
+ 
+  
+}
+.box2 .btn {
+  margin-top: 20px;
+  height: 30px;
+  width: 160px;
+  font-size: 14px;
+}
+.box2 .fa-heart{
+  border-radius: 50%;
+  background: rgba(100, 100, 100, 0.6);
+  color: black;
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  padding: 1.4rem 1rem;
+}
+.column h1{
+  font-size: 3.5rem;
+  padding: 20px;
+  
+}
+.column .image{
+  flex: 1 1 45rem;
+  float: right;
+  margin: 40px;
+}
+
+.column img{
+  width: 100%;
+  border-radius: 50%;
+
+}
+.footer p{
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer h1{
+  font-size: 24px;
+}
+.footer .btn{
+  margin: 20px;
+  text-align: center;
+  height: 35px;
+}
+.footer h2{
+  font-size: 12px;
+  font-weight: 300;
+}
+.footer .box-Container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+  color: var(--black);
+}
+.footer .box-Container .b0x h3{
+  padding: .5rem 0;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+.footer .box-Container .b0x a{
+  display: block;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.footer .box-Container .b0x a:hover{
+  color: orangered;
+  text-decoration: underline;
+}
